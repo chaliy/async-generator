@@ -1,0 +1,15 @@
+﻿<# 	
+var config = new GenerationConfiguration
+{
+	Name = "ServiceBusAsyncExtensions",
+	Namespace = "AzureExample",
+	Assemblies = new []
+	{
+		Define(@".\packages\WindowsAzure.ServiceBus.1.8.0.0\lib\net40-full\Microsoft.ServiceBus.dll", 
+			"Microsoft.ServiceBus.Messaging.QueueClient",
+			"Microsoft.ServiceBus.Messaging.MessageReceiver",
+			"Microsoft.ServiceBus.Messaging.BrokeredMessage")
+	}
+};
+#>
+<#@ include file="AsyncExtensions.ttinclude" #>

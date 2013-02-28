@@ -1,0 +1,14 @@
+<package>
+    <metadata>
+        <id>AsyncGenerator</id>
+        <version>1.0.0.0</version>
+        <description>T4 template to generate async methods wrapping existing APM</description>
+        <authors>Mike Chaliy</authors>
+        <language>en-US</language>
+        <projectUrl>https://github.com/chaliy/async-generator</projectUrl>
+        <!-- <iconurl></iconurl> -->
+        <licenseUrl>http://www.opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>TPL async T4 APM IAsyncResult</tags>
+    </metadata>
+</package>

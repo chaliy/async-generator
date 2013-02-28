@@ -1,0 +1,13 @@
+<#  
+var config = new GenerationConfiguration
+{
+    Name = "ExampleAsyncExtensions",
+    Namespace = "SuperExample",
+    Assemblies = new []
+    {
+        Define(@".\Path\To.dll", 
+            "SuperType1", "SuperType2") // List all types you want to include
+    }
+};
+#>
+<#@ include file="AsyncExtensions.ttinclude" #>
